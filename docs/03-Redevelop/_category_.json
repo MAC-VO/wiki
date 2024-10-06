@@ -1,0 +1,9 @@
+{
+    "label": "Extend MAC-VO",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Easily extend MAC-VO for your need. Adapting a new flow estimation network for down-stream task evaluation? Just 50 lines of code needed."
+    }
+  }
+  
