@@ -4,7 +4,7 @@ An **Interface** specifies a component with certain methods and properties. A **
 
 ## Modules in MAC-VO
 
-Currently the modules available / used by MAC-VO are
+Currently the modules available / used by MAC-VO are listed below, `I...` prefix represents the class is an "Interface" instead of an implementation. One should always prefer to use or process `I...` interface class instead of a certain subclass to write implementation-agnostic code.
 
 Interface           |   Description
 ---|---

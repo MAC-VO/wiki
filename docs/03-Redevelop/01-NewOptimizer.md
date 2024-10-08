@@ -24,7 +24,7 @@ Data (Message) Type:
 
 Detailed specification of methods to be implemented is provided below:
 
-```python
+```python title="Module/Optimization/Interface.py"
 class IOptimizer(ABC, Generic[T_GraphInput, T_Context, T_GraphOutput], SubclassRegistry):
     """
     Interface for optimization module. When config.parallel set to `true`, will spawn a child process

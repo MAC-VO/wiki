@@ -84,13 +84,6 @@ class IStereoDepth(ABC, Generic[T_Context], ConfigTestableSubclass):
 
     :::
 
-* `class ApplyGTCov(IStereoDepth[IStereoDepth])`
-
-    :::warning
-
-    Will be released soon.
-
-    :::
 
 ## Modifiers
 
@@ -100,7 +93,7 @@ Modifiers are "higher-order module" that creates a new `IStereoDepth` by tweakin
 
     A higher-order-module that encapsulates a `IStereoDepth` module. 
     
-    Always compare the estimated output of encapsulated `IStereoDepth` with ground truth matching and convert
+    Always compare the estimated output of encapsulated `IStereoDepth` with ground truth depth and convert
     error in estimation to 'estimated' covariance.
     
     Will raise `AssertionError` if frame does not have gtDepth.
