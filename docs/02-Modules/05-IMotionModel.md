@@ -37,7 +37,7 @@ class IMotionModel(ABC, ConfigTestableSubclass):
     
     Apply GT motion with noise (can be disabled by setting `noise_std` to 0.0 in config) on previous optimized pose to predict next pose.
 
-* `class TartanMotionNet(IMotionModel)`
+* :star: `class TartanMotionNet(IMotionModel)`
     
     Apply motion estimated by MotionNet adapted from TartanVO on previously optimized pose to predict next pose.
 

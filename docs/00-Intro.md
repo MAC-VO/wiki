@@ -16,3 +16,8 @@ This document is for people who want to extend and redevelop based on the codeba
 
 3. Finally we introduce some minor utilities provided along with the codebase that might be helpful.
 
+
+## Change Log
+
+* `2024 Nov 11` - Adding notes on how to extend Dataset of MAC-VO. Finish `IObservationFilter` and `IObservationCov` documentation.
+

@@ -76,7 +76,7 @@ class IKeypointSelector(ABC, ConfigTestableSubclass):
     This selector is deterministic and is used for internal benchmarking when we want reproducible results.
     :::
 
-* `class CovAwareSelector(IKeypointSelector)`
+* :star: `class CovAwareSelector(IKeypointSelector)`
 
     The keypoint selector used by the MAC-VO.
     

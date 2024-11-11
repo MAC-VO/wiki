@@ -79,7 +79,7 @@ class IFrontend(ABC, Generic[T_Context], ConfigTestableSubclass):
 
     A higher-order-module that creates an `IFrontend` module by combining an `IMatcher` and an `IStereoDepth` module.
 
-* `class FlowFormerCovFrontend(IFrontend[ModelContext])`
+* :star: `class FlowFormerCovFrontend(IFrontend[ModelContext])`
 
     Given two stereo images taken at time `t` and `t+1`, this module jointly estimates the flow between `(t+1.Left, t+1.Right)` and `(t.Left, t+1.Left)`. The first is used to compute the depth of frame `t+1` while the second is used to compute the flow (matching) between frame `t` and `t+1`.
 
