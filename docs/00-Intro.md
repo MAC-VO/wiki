@@ -21,3 +21,5 @@ This document is for people who want to extend and redevelop based on the codeba
 
 * `2024 Nov 11` - Adding notes on how to extend Dataset of MAC-VO. Finish `IObservationFilter` and `IObservationCov` documentation.
 
+* `2024 Nov 23` - Adding ROS-2 integration docs.
+
